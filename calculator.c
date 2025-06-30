@@ -4,6 +4,18 @@ int main() {
     int a = 5, b = 3;
     int sum = a + b;
     int diff = a - b;
+    float div = (float)a / b;
+    printf("Addition: %d\n", sum);
+    printf("Subtraction: %d\n", diff);
+    printf("Division: %.2f\n", div);
+    return 0;
+}
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 3;
+    int sum = a + b;
+    int diff = a - b;
     printf("Addition: %d\n", sum);
     printf("Subtraction: %d\n", diff);
     return 0;
